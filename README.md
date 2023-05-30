@@ -21,17 +21,19 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-<!-- ![](./public/design/desktop-design.jpg) -->
+![Mobile](./public/Listagem_de_usuarios_mobile.png)
+
+![Desktop](./public/Listagem_de_usuarios.png)
 
 ### Links
 
-<!-- - Site URL: [Listas de empregos com filtragem]() -->
+- Site URL: [Listas de usuários com filtro no nome](https://lista-usuarios.vercel.app/)
 
 ## Meu processo
 
 - [x] Desktop-design
 - [x] Filtro
-- [ ] Mobile-design
+- [x] Mobile-design
 
 ## Autor
 
