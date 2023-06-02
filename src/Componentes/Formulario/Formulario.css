@@ -5,8 +5,10 @@
 }
 
 .cabecalho {
-    display: inline-flex;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     width: 100%;
     margin: 35px 0 25px 0;
 }
@@ -16,21 +18,45 @@
     font-weight: 600;
 }
 
-.campo-busca {
-    border: solid 1px;
-    border-radius: 15px;
-    width: 260px;
+.campo-busca form{
+    display: flex;
+    width: 90%;
+    gap: 35px;
 }
 
-.campo-busca input {
+.input-texto {
+    border: solid 1px;
+    border-radius: 15px;
+    width: 300px;
+    height: 30px;
+}
+
+.input-texto input {
     background-color: transparent;
     height: 25px;
-    width: 210px;
+    width: 200px;
     padding-left: 15px;
     font-style: italic;
     font-size: 15px;
-    border: none;
+    border: transparent;
     outline: transparent;
+}
+
+.input-texto button {
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.input-radio {
+    display: inline-flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.input-radio input {
+    
 }
 
 table {
